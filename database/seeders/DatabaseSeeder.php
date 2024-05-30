@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
             UserTableSeeder::class,
             PermissionTableSeeder::class,
             PengaturanUserTableSeeder::class,
+            KategoriTableSeeder::class,
         ]);
     }
 }
