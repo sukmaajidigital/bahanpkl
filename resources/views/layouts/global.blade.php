@@ -16,6 +16,7 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('') }}assets/css/style.css">
     <link rel="stylesheet" href="{{ asset('') }}assets/css/components.css">
+    <link rel="stylesheet" href="{{ asset('') }}assets/css/cssaji.css">
     <link href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/responsive/2.4.0/css/responsive.bootstrap4.min.css" rel="stylesheet" />
     @yield('style')
