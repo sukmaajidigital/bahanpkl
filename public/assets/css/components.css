@@ -449,7 +449,7 @@ div.dataTables_wrapper div.dataTables_processing {
   color: #6777ef;
 }
 .ranges li:hover, .ranges li.active {
-  background-color: #6777ef;
+  background-color: #ff0037;
 }
 
 .daterangepicker td.active, .daterangepicker td.active:hover {

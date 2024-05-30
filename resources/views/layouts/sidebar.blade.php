@@ -1,9 +1,9 @@
 <aside id="sidebar-wrapper">
     <div class="sidebar-brand">
-        <a href="{{ route('dashboard') }}">Pengeluaran LGR</a>
+        <a href="{{ route('dashboard') }}">Inventory Bahan Baku</a>
     </div>
     <div class="sidebar-brand sidebar-brand-sm">
-        <a href="{{ route('dashboard') }}">LGR</a>
+        <a href="{{ route('dashboard') }}">IBB</a>
     </div>
     <ul class="sidebar-menu">
         <li class="menu-header">Dashboard</li>

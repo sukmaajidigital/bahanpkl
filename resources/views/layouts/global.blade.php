@@ -44,13 +44,14 @@
                 @include('layouts.sidebar')
             </div>
 
-            <!-- Main Content -->
+            {{-- <!-- Main Content -->/////////////////// --}}
             <div class="main-content">
                 @yield('content')
             </div>
+
             <footer class="main-footer">
                 <div class="footer-left">
-                    Copyright &copy; 2023 <div class="bullet"></div>
+                    Sukmaajidigital &copy; <tahun id="current-year"></tahun>
                 </div>
                 <div class="footer-right">
 
@@ -58,7 +59,10 @@
             </footer>
         </div>
     </div>
-
+    {{-- script menampilkan tahun --}}
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
     <!-- General JS Scripts -->
     <script src="{{ asset('assets/modules/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/modules/popper.js') }}"></script>
