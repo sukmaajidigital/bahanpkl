@@ -12,7 +12,7 @@
         </li>
         <li class="menu-header">Master Data</li>
         @can('manage_kategori')
-        <li class="{{ request()->is('dashboard/kategori*') ? 'active' : '' }}">
+        <li class="{{ request()->is('dashboard/kategori') ? 'active' : '' }}">
             <a class="nav-link" href="{{ route('kategori.index') }}"><i class="fas fa-list"></i>
                 <span>Kategori</span></a>
         </li>
