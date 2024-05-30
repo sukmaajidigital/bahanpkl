@@ -14,13 +14,16 @@ class KategoriTableSeeder extends Seeder
     public function run(): void{
         $kategoris = [
             'kain',
-            'lilin malam',
-            'warna naftol',
-            'warna sol',
-            'warna pikmen',
+            'lilin malam', 
+            'warna napthol',
+            'warna indigosol',
+            'warna remazol',
+            'warna rapid',
+            'warna direk',
+            'warna indigofera',
             'canting tulis',
             'canting cap',
-            'campuran'
+            'bahan campuran',
         ];
 
         foreach ($kategoris as $kategori) {
