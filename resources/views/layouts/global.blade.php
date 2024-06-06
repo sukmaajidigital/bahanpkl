@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset('assets/modules/fontawesome/css/all.min.css') }}">
 
     <!-- CSS Libraries -->
-
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('') }}assets/css/style.css">
     <link rel="stylesheet" href="{{ asset('') }}assets/css/components.css">

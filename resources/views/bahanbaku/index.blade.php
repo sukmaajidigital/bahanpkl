@@ -35,7 +35,7 @@
                                     @foreach ($bahanbaku as $no=>$bahan)
                                         <tr>
                                             <td>{{ $no + 1 }}</td>
-                                            <td>{{ $bahan->nama_bahan_baku }}</td>
+                                            <td>{{ $bahan->kategori->nama_kategori }} <a href="">  </a> {{ $bahan->nama_bahan_baku }}</td>
                                             <td>{{ $bahan->satuan }}</td>
                                             <td>{{ $bahan->kategori->nama_kategori }}</td>
                                             <td>
